@@ -17,6 +17,7 @@ Want to find the index inside a for loop? Wrap an iterable with ‘enumerate’ 
 vowels= ['a','e','i','o','u']
 
 for i, letter in enumerate(vowels):
+	
 	print (i, letter)
 
 
@@ -41,7 +42,9 @@ Instead of building a list with a loop, one can build it more concisely with a l
 # Simple List Append
 a = []
 for x in range(0,10):
+	
 	a.append(x)
+
 print(a)
 
 # List Comprehension
