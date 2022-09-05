@@ -16,6 +16,7 @@ Want to find the index inside a for loop? Wrap an iterable with ‘enumerate’ 
 # Know the index faster
 vowels= ['a','e','i','o','u']
 
+
 for i, letter in enumerate(vowels):
 	
 	print (i, letter)
@@ -25,6 +26,7 @@ for i, letter in enumerate(vowels):
 Comparison operators can be used in such a way that variable can store boolean values
 
 # Chaining Comparison Operators
+
 i = 5;
 
 ans = 1 < i < 10
